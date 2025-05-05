@@ -57,15 +57,6 @@ This project was implemented using Go’s **low-level `net` package** to:
  Understand the **underlying mechanics** of network communication without relying on higher-level abstractions like `net/http`.  
  Build a **lightweight and efficient proxy server**.  
 
----
 
-## Future Improvements  
-
-**Replace artificial delays** (`time.Sleep`) with a more robust communication mechanism.  
-Use **structured data formats** (e.g., JSON) for requests and responses.  
-Simplify the architecture by **reusing a single connection** for both requests and responses.  
-Add **error handling, timeouts, and logging** for better reliability.  
-
----
 
   
